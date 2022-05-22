@@ -79,9 +79,9 @@ if	(empty($_POST["check1"])){
 if($errors){
 	exit();
 }
-$user = 'u24224';
-$pass = '1546096';
-$db = new PDO('mysql:host=localhost;dbname=u24224', $user, $pass,
+$user = 'u47652';
+$pass = '8899658';
+$db = new PDO('mysql:host=localhost;dbname=u47652', $user, $pass,
 array(PDO::ATTR_PERSISTENT => true));
 try {
  $stmt = $db->prepare("INSERT INTO application (name, mail, year, sex, countlimbs, super, biography, check1) 
